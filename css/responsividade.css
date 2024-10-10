@@ -5,7 +5,11 @@
         padding: 0;
     }
 
-    /************************** SOBRE ***/
+    .inicio {
+        height: 680px;
+    }
+
+    /**** SOBRE ***/
     .sobre {
         height: auto;
     }
@@ -16,7 +20,7 @@
     
     .headline-sobre {
         height: auto;
-        position: relative;
+        position: absolute;
     }
 
     .conteudo-sobre {
@@ -35,9 +39,10 @@
         height: auto;
     }
 
-    .imagem-sobre {
-        
+    .imagem-sobre {        
         justify-content: center;
+        position: relative;
+        padding-top: 80px;
     }
 
     .complemento-sobre {
@@ -61,7 +66,7 @@
     .titulo-servicos {
         width: 100%;
         display: flex;
-        align-items: center;
+        align-items: left;
         justify-content: left;
     }
 
@@ -71,7 +76,7 @@
 
     .descricao-servicos {
         width: 100%;
-        text-align: right;
+        text-align: left;
         font-size: 1.4rem;
     }
 
@@ -127,7 +132,8 @@
     
     .imagens-case {
         width: 100%;
-        height: 60vh
+        height: 60vh;        
+        
     }
 
     .textos-case {
@@ -164,7 +170,7 @@
 
     .descricao-contato {
         width: 100%;
-        text-align: right;
+        text-align: left;
         font-size: 1.3rem;
     }
 
