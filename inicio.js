@@ -1,7 +1,5 @@
-const whatsappButton = document.getElementById('whatsappButton');
-
-
+const whatsappButton = document.querySelector('.cta');
 
 whatsappButton.addEventListener('click', function () {
-    window.location.href = 'https://wa.me/11994929467';
+    window.open(`https://api.whatsapp.com/send?phone=${11994929467}&text=${'Olá, gostaria de informações!'}`, '_blank');
 });
